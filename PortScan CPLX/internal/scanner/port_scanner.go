@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"webscan/internal/web"
+	"portscan/internal/web"
 )
 
 // Config contains scanner configuration values.

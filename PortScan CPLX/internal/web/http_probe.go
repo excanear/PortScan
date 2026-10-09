@@ -109,7 +109,7 @@ func ProbeHTTP(ctx context.Context, host string, port int, timeout time.Duration
 		if err != nil {
 			continue
 		}
-		req.Header.Set("User-Agent", "webscan/0.1")
+		req.Header.Set("User-Agent", "portscan/0.1")
 		req.Header.Set("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8")
 
 		resp, err := client.Do(req)

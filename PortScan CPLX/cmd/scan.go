@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"time"
 
-	"webscan/internal/scanner"
-	"webscan/pkg/output"
+	"portscan/internal/scanner"
+	"portscan/pkg/output"
 
 	"github.com/spf13/cobra"
 )

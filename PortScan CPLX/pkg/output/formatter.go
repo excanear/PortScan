@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"webscan/internal/scanner"
+	"portscan/internal/scanner"
 )
 
 // FormatText renders a human-friendly text report with colors and summary.
@@ -14,7 +14,7 @@ func FormatText(results []scanner.PortResult, verbose bool, target string, durat
 	var sb strings.Builder
 
 	// Header
-	sb.WriteString(HeaderStyle.Render("WebScan") + "\n")
+	sb.WriteString(HeaderStyle.Render("PortScan") + "\n")
 
 	// Summary
 	openCount := 0

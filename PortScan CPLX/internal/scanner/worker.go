@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"webscan/internal/web"
+	"portscan/internal/web"
 )
 
 // scanPort checks TCP connectivity to a single port using net.Dialer.DialContext,

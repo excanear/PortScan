@@ -7,9 +7,9 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "webscan",
+	Use:   "portscan",
 	Short: "HTTP-focused port scanner",
-	Long:  "webscan is a high-performance HTTP/HTTPS focused port scanner (skeleton).",
+	Long:  "portscan is a high-performance HTTP/HTTPS focused port scanner (skeleton).",
 }
 
 // Execute runs the root cobra command.

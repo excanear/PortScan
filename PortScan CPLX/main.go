@@ -1,6 +1,6 @@
 package main
 
-import "webscan/cmd"
+import "portscan/cmd"
 
 func main() {
 	cmd.Execute()

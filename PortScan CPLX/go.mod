@@ -1,4 +1,4 @@
-module webscan
+module portscan
 
 go 1.25.0
 
